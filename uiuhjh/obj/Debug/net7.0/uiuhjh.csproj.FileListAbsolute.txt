@@ -1,0 +1,15 @@
+/Users/momans/Projects/uiuhjh/uiuhjh/bin/Debug/net7.0/uiuhjh
+/Users/momans/Projects/uiuhjh/uiuhjh/bin/Debug/net7.0/uiuhjh.deps.json
+/Users/momans/Projects/uiuhjh/uiuhjh/bin/Debug/net7.0/uiuhjh.runtimeconfig.json
+/Users/momans/Projects/uiuhjh/uiuhjh/bin/Debug/net7.0/uiuhjh.dll
+/Users/momans/Projects/uiuhjh/uiuhjh/bin/Debug/net7.0/uiuhjh.pdb
+/Users/momans/Projects/uiuhjh/uiuhjh/obj/Debug/net7.0/uiuhjh.csproj.AssemblyReference.cache
+/Users/momans/Projects/uiuhjh/uiuhjh/obj/Debug/net7.0/uiuhjh.GeneratedMSBuildEditorConfig.editorconfig
+/Users/momans/Projects/uiuhjh/uiuhjh/obj/Debug/net7.0/uiuhjh.AssemblyInfoInputs.cache
+/Users/momans/Projects/uiuhjh/uiuhjh/obj/Debug/net7.0/uiuhjh.AssemblyInfo.cs
+/Users/momans/Projects/uiuhjh/uiuhjh/obj/Debug/net7.0/uiuhjh.csproj.CoreCompileInputs.cache
+/Users/momans/Projects/uiuhjh/uiuhjh/obj/Debug/net7.0/uiuhjh.dll
+/Users/momans/Projects/uiuhjh/uiuhjh/obj/Debug/net7.0/refint/uiuhjh.dll
+/Users/momans/Projects/uiuhjh/uiuhjh/obj/Debug/net7.0/uiuhjh.pdb
+/Users/momans/Projects/uiuhjh/uiuhjh/obj/Debug/net7.0/uiuhjh.genruntimeconfig.cache
+/Users/momans/Projects/uiuhjh/uiuhjh/obj/Debug/net7.0/ref/uiuhjh.dll
