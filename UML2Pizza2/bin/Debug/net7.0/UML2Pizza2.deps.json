@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "UML2Pizza2/1.0.0": {
+        "runtime": {
+          "UML2Pizza2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UML2Pizza2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

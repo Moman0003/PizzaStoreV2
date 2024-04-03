@@ -1,0 +1,15 @@
+/Users/momans/Documents/GitHub/PizzaStoreV2/UML2Pizza2/bin/Debug/net7.0/UML2Pizza2
+/Users/momans/Documents/GitHub/PizzaStoreV2/UML2Pizza2/bin/Debug/net7.0/UML2Pizza2.deps.json
+/Users/momans/Documents/GitHub/PizzaStoreV2/UML2Pizza2/bin/Debug/net7.0/UML2Pizza2.runtimeconfig.json
+/Users/momans/Documents/GitHub/PizzaStoreV2/UML2Pizza2/bin/Debug/net7.0/UML2Pizza2.dll
+/Users/momans/Documents/GitHub/PizzaStoreV2/UML2Pizza2/bin/Debug/net7.0/UML2Pizza2.pdb
+/Users/momans/Documents/GitHub/PizzaStoreV2/UML2Pizza2/obj/Debug/net7.0/UML2Pizza2.csproj.AssemblyReference.cache
+/Users/momans/Documents/GitHub/PizzaStoreV2/UML2Pizza2/obj/Debug/net7.0/UML2Pizza2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/momans/Documents/GitHub/PizzaStoreV2/UML2Pizza2/obj/Debug/net7.0/UML2Pizza2.AssemblyInfoInputs.cache
+/Users/momans/Documents/GitHub/PizzaStoreV2/UML2Pizza2/obj/Debug/net7.0/UML2Pizza2.AssemblyInfo.cs
+/Users/momans/Documents/GitHub/PizzaStoreV2/UML2Pizza2/obj/Debug/net7.0/UML2Pizza2.csproj.CoreCompileInputs.cache
+/Users/momans/Documents/GitHub/PizzaStoreV2/UML2Pizza2/obj/Debug/net7.0/UML2Pizza2.dll
+/Users/momans/Documents/GitHub/PizzaStoreV2/UML2Pizza2/obj/Debug/net7.0/refint/UML2Pizza2.dll
+/Users/momans/Documents/GitHub/PizzaStoreV2/UML2Pizza2/obj/Debug/net7.0/UML2Pizza2.pdb
+/Users/momans/Documents/GitHub/PizzaStoreV2/UML2Pizza2/obj/Debug/net7.0/UML2Pizza2.genruntimeconfig.cache
+/Users/momans/Documents/GitHub/PizzaStoreV2/UML2Pizza2/obj/Debug/net7.0/ref/UML2Pizza2.dll
