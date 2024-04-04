@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using UML_2_PizzaStoreV2;
 
+<<<<<<< HEAD
 ///Chick
+=======
+///Chicken
+>>>>>>> 062ab17cf43ee61235ae4541c2f58373b2bdffaa
 
 namespace UML_2_PizzaStoreV2
 {
