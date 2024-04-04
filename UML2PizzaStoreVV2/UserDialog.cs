@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UML_2_PizzaStoreV2;
 
-///beni
+///Chicken
 
 namespace UML_2_PizzaStoreV2
 {
