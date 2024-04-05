@@ -30,11 +30,11 @@ namespace UML_2_PizzaStoreV2
             Pizza pizzaitem2 = new Pizza();
             Console.Clear();
             Console.WriteLine("--------------------");
-            Console.WriteLine("|   Delete pizza  | ");
+            Console.WriteLine("|   Slet pizza  | ");
             Console.WriteLine("--------------------");
             Console.WriteLine();
             _menucatalog.Printmenu();
-            Console.Write("enter pizza number: ");
+            Console.Write("Skriv nummer på pizza ");
 
             string? input = Console.ReadLine();
 
@@ -46,14 +46,14 @@ namespace UML_2_PizzaStoreV2
                 }
                 else
                 {
-                    Console.WriteLine($"unable to parse {input}. Please enter a valid number.");
-                    // Handle invalid input here, such as asking the user to input again or returning null
+                    Console.WriteLine($"Kan ikke analysere {input}. Venligst skriv et gyldigt nummer");
+                    
                 }
             }
             else
             {
-                Console.WriteLine("Input is null. Please provide a valid number.");
-                // Handle null input here, such as asking the user to input again or returning null
+                Console.WriteLine("Venligst skriv et gyldigt tal");
+                
             }
 
             return pizzaitem2;
@@ -65,21 +65,21 @@ namespace UML_2_PizzaStoreV2
             Pizza pizzaitem1 = new Pizza();
             Console.Clear();
             Console.WriteLine("--------------------");
-            Console.WriteLine("| Updating pizza  | ");
+            Console.WriteLine("| Opdater pizza  | ");
             Console.WriteLine("--------------------");
-            Console.WriteLine("enter new pizza name: ");
-            string? nameInput = Console.ReadLine(); // Tilføj ? for at tillade null
+            Console.WriteLine("Skriv det nye navn til pizza:");
+            string? nameInput = Console.ReadLine();
             if (nameInput != null)
             {
                 pizzaitem1.Name = nameInput;
             }
             else
             {
-                // Håndter null input efter behov
+              
             }
 
             string? input = "";
-            Console.Write("enter new price: ");
+            Console.Write("Skriv den nye pris til pizza:");
             input = Console.ReadLine();
             if (input != null)
             {
@@ -89,17 +89,17 @@ namespace UML_2_PizzaStoreV2
                 }
                 catch (FormatException e)
                 {
-                    Console.WriteLine($"unable to parse {input} - message: {e.Message}");
+                    Console.WriteLine($"Kan ikke analysere {input} - besked: {e.Message}");
                     throw;
                 }
             }
             else
             {
-                // Håndter null input efter behov
+            
             }
 
             input = "";
-            Console.Write("enter new pizza number: ");
+            Console.Write("Skriv det nye nummer til pizza:");
             input = Console.ReadLine();
             if (input != null)
             {
@@ -109,13 +109,13 @@ namespace UML_2_PizzaStoreV2
                 }
                 catch (FormatException e)
                 {
-                    Console.WriteLine($"unable to parse {input} - message: {e.Message}");
+                    Console.WriteLine($"Kan ikke analysere {input} - besked: {e.Message}");
                     throw;
                 }
             }
             else
             {
-                // Håndter null input efter behov
+                
             }
             return pizzaitem1;
         }
@@ -128,22 +128,22 @@ namespace UML_2_PizzaStoreV2
             Pizza pizzaitem = new Pizza();
             Console.Clear();
             Console.WriteLine("--------------------");
-            Console.WriteLine("| Creating pizza  | ");
+            Console.WriteLine("| Opret ny pizza  | ");
             Console.WriteLine("--------------------");
             Console.WriteLine();
-            Console.Write("enter pizza name: ");
-            string? nameInput = Console.ReadLine(); // Tilføj ? for at tillade null
+            Console.Write("Skriv navnet på pizza: ");
+            string? nameInput = Console.ReadLine(); 
             if (nameInput != null)
             {
                 pizzaitem.Name = nameInput;
             }
             else
             {
-                // Håndter null input efter behov
+                
             }
 
             string? input = "";
-            Console.Write("enter price: ");
+            Console.Write("Skriv prisen: ");
             input = Console.ReadLine();
             if (input != null)
             {
@@ -153,17 +153,17 @@ namespace UML_2_PizzaStoreV2
                 }
                 catch (FormatException e)
                 {
-                    Console.WriteLine($"unable to parse {input} - message: {e.Message}");
+                    Console.WriteLine($"Kan ikke analysere {input} - besked: {e.Message}");
                     throw;
                 }
             }
             else
             {
-                // Håndter null input efter behov
+                
             }
 
             input = "";
-            Console.Write("enter pizza number: ");
+            Console.Write("Skriv nummeret til pizza ");
             input = Console.ReadLine();
             if (input != null)
             {
@@ -173,13 +173,13 @@ namespace UML_2_PizzaStoreV2
                 }
                 catch (FormatException e)
                 {
-                    Console.WriteLine($"unable to parse {input} - message: {e.Message}");
+                    Console.WriteLine($"Kan ikke analysere {input} - besked: {e.Message}");
                     throw;
                 }
             }
             else
             {
-                // Håndter null input efter behov
+              
             }
             return pizzaitem;
         }
@@ -188,17 +188,17 @@ namespace UML_2_PizzaStoreV2
         int MainMenuChoice(List<string> menuitems)
         {
             Console.Clear();
-            Console.WriteLine("--------------------");
-            Console.WriteLine("| Haruns Pizzamenu |");
-            Console.WriteLine("--------------------");
+            Console.WriteLine("------------------------");
+            Console.WriteLine("| Big Mammas Pizzamenu |");
+            Console.WriteLine("------------------------");
             Console.WriteLine();
-            Console.WriteLine("options:");
+            Console.WriteLine("Muligheder:");
             foreach (string choice in menuitems)
             {
                 Console.WriteLine(choice);
             }
 
-            Console.Write("enter option#: ");
+            Console.Write("Vælg en mulighed ved at skrive tallet: ");
             string input = Console.ReadKey().KeyChar.ToString();
 
             try
@@ -208,7 +208,7 @@ namespace UML_2_PizzaStoreV2
             }
             catch (FormatException)
             {
-                Console.WriteLine($"unable to parse {input}");
+                Console.WriteLine($"Kan ikke analysere {input}");
             }
             return -1;
         }
@@ -218,11 +218,11 @@ namespace UML_2_PizzaStoreV2
             bool proceed = true;
             List<string> mainmenulist = new List<string>()
     {
-        "0.quit",
-        "1.Create new pizza",
-        "2.print menu",
-        "3.Update pizza",
-        "4.Delete pizza"
+        "0.Afslut",
+        "1.Opret ny",
+        "2.Se pizza menu",
+        "3.Opdater pizza",
+        "4.Slet pizza"
     };
 
             while (proceed)
@@ -233,7 +233,7 @@ namespace UML_2_PizzaStoreV2
                 {
                     case 0:
                         proceed = false;
-                        Console.WriteLine("quitting");
+                        Console.WriteLine("afslutter");
                         break;
                     case 1:
                         try
@@ -242,23 +242,23 @@ namespace UML_2_PizzaStoreV2
                             if (_menucatalog != null)
                             {
                                 _menucatalog.Create(pizza);
-                                Console.WriteLine($"you created: {pizza}");
+                                Console.WriteLine($"Du har oprettet: {pizza}");
                             }
                             else
                             {
-                                Console.WriteLine("MenuCatalog is not initialized.");
+                                Console.WriteLine("MenuCatalog er ikke blevet startet.");
                             }
                         }
                         catch (FormatException)
                         {
-                            Console.WriteLine("Invalid input. Please enter valid data.");
+                            Console.WriteLine("Ugyldig input. Indtast venligst gyldige data.");
                         }
-                        Console.Write("hit any key to continue");
+                        Console.Write("Tryk på en knap for at fortsætte");
                         Console.ReadKey();
                         break;
                     case 2:
                         PrintPizza();
-                        Console.Write("hit any key to continue");
+                        Console.Write("Tryk på en knap for at fortsætte");
                         Console.ReadKey();
                         break;
                     case 3:
@@ -268,18 +268,18 @@ namespace UML_2_PizzaStoreV2
                             if (_menucatalog != null)
                             {
                                 _menucatalog.Update(pizza1);
-                                Console.WriteLine($"you have updated: {pizza1}");
+                                Console.WriteLine($"Du har opdateret: {pizza1}");
                             }
                             else
                             {
-                                Console.WriteLine("MenuCatalog is not initialized.");
+                                Console.WriteLine("MenuCatalog er ikke blevet startet.");
                             }
                         }
                         catch (FormatException)
                         {
-                            Console.WriteLine("Invalid input. Please enter valid data.");
+                            Console.WriteLine("Ugyldig input. Indtast venligst gyldige data.");
                         }
-                        Console.Write("hit any key to continue");
+                        Console.Write("Tryk på en knap for at fortsætte");
                         Console.ReadKey();
                         break;
                     case 4:
@@ -289,22 +289,22 @@ namespace UML_2_PizzaStoreV2
                             if (_menucatalog != null)
                             {
                                 _menucatalog.Delete(pizza);
-                                Console.WriteLine($"you have deleted: {pizza}");
+                                Console.WriteLine($"Du har slettet: {pizza}");
                             }
                             else
                             {
-                                Console.WriteLine("MenuCatalog is not initialized.");
+                                Console.WriteLine("MenuCatalog er ikke blevet startet.");
                             }
                         }
                         catch (FormatException)
                         {
-                            Console.WriteLine("Invalid input. Please enter valid data.");
+                            Console.WriteLine("Ugyldig input. Indtast venligst gyldige data.");
                         }
-                        Console.Write("hit any key to continue");
+                        Console.Write("Tryk på en knap for at fortsætte");
                         Console.ReadKey();
                         break;
                     default:
-                        Console.Write("Invalid choice. Please try again.");
+                        Console.Write("Ugyldigt valg. Prøv venligst igen.");
                         Console.ReadKey();
                         break;
                 }
