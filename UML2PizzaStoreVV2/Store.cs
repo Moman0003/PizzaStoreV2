@@ -1,38 +1,48 @@
 ﻿using System;
-using UML_2_PizzaStoreV2;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 
 namespace UML_2_PizzaStoreV2
 {
     public class Store
     {
-        private MenuCatalog _menuCatalog;
+        Menucatalog menuCatalog;
 
         public Store()
         {
-            _menuCatalog = new MenuCatalog();
+            menuCatalog = new Menucatalog();
+            Test();
+            Run();
         }
 
         public void Test()
         {
-            Pizza pizza1 = new Pizza() { Number = 1, Name = "Margherita", Price = 500 };
-            _menuCatalog.CreatePizza(pizza1);
+            Pizza p = new Pizza() { Number = 1, Name = "Pizza#1", Price = 50 };
+            menuCatalog.Create(p);
 
-            Pizza pizza2 = new Pizza() { Number = 2, Name = "Pepperoni", Price = 60 };
-            _menuCatalog.CreatePizza(pizza2);
+            p = new Pizza() { Number = 2, Name = "Pizza#2", Price = 55 };
+            menuCatalog.Create(p);
 
-            _menuCatalog.PrintMenu();
+            p = new Pizza() { Number = 3, Name = "Pizza#3", Price = 65 };
+            menuCatalog.Create(p);
 
-            Pizza foundPizza = _menuCatalog.FindPizza(1);
-            if (foundPizza != null)
-            {
-                // Håndter tilfælde hvor en pizza blev fundet
-                Console.WriteLine("Pizza found: " + foundPizza.Name);
-            }
-            else
-            {
-                // Håndter tilfælde hvor ingen pizza blev fundet
-                Console.WriteLine("No pizza found.");
-            }
+            menuCatalog.Printmenu();
+
+            /// test
+
+            ///test slut
+
+        }
+
+        public void Run()
+        {
+            new UserDialog(menuCatalog).Run();
         }
     }
 }
+
+
+
